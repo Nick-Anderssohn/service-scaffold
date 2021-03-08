@@ -3,8 +3,7 @@ Starter code for a spring boot service
 
 ## Build/Run with docker
 ```
-docker build -t service .
-docker run --rm -itp "8080:8080" service
+docker build -t service . && docker run --rm -itp "8080:8080" service
 ```
 
 ## Build/Run without docker
