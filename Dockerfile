@@ -2,7 +2,8 @@ FROM openjdk:15-jdk-alpine3.12 as builder
 
 WORKDIR /build
 
-# First download and cache dependencies to make subsequent builds faster.
+# First download dependencies (if they aren't cached yet) and cache
+# them to make subsequent builds faster.
 # Note, if pom.xml, mvnw, or anything in .mvn are edited, dependencies will be
 # re-downloaded on the next build.
 COPY pom.xml .
