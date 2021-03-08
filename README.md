@@ -1,4 +1,4 @@
-# service-scaffold
+# Spring boot service starter project
 Starter code for a spring boot service. This adds docker, some tweaks to the pom.xml,
 and some example code  on top of a project originally generated using
 [spring initializr](https://start.spring.io/).
